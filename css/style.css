@@ -22,7 +22,8 @@ a {
 
 img {
     display: block;
-    max-width: 100%; /* Não estoura o container e diminuem | Com width aumenta infinito e perde a qualidade  */
+    max-width: 100%; /* Não estoura o container e diminuem |
+     Com width aumenta infinito e perde a qualidade  */
 }
 
 /* Superinfo */
@@ -189,7 +190,9 @@ img {
     border: 4px solid white;
     padding: 20px;
     margin: 10px;
-    /* min-width: 260px; está no flex, Definir um min-width menor que 280px pois é um valor minimo que se tem de largura em mobiles | Se definir por exemplo 400px os itens vão criar uma barra de rolagem nos mobile */
+    /* min-width: 260px; está no flex, 
+    Definir um min-width menor que 280px pois é um valor mínimo que se tem de largura em mobiles 
+    Se definir por exemplo 400px os itens vão criar uma barra de rolagem nos mobile */
 }
 
 .preco-item h2{  
@@ -246,7 +249,9 @@ img {
     color: #222222;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.25em; /* 36 / 16 */ /* tambem está forçando o tamanhao do conteudo, não quebrando o mesmo e os outros itens */
+    font-size: 2.25em; /* 36 / 16 */ 
+    /* também está forçando o tamanho do conteúdo,
+    não quebrando o mesmo e os outros itens */
     padding: 15px 0;
     text-align: center;
 }
@@ -275,7 +280,10 @@ img {
 }
 
 .qualidade-item {
-    flex: 1 1 300px; /* 300px = +- 1/3 do layout, quando não der cai pra 2, não foi colocado % por estoura o container por causa da margin, pode ser utilizado o calc mas calc não funciona no flex basis no IE11 */
+    flex: 1 1 300px; 
+    /* 300px = +- 1/3 do layout, quando não der cai pra 2, 
+    não foi colocado % por estoura o container por causa da margin, 
+    pode ser utilizado o calc mas calc não funciona no flex basis no IE11 */
     margin: 20px 10px;
 }
 
@@ -294,8 +302,8 @@ img {
 }
 
 /*  Dos tipos que existem, 1 item, no before do h2
-    .qualidade-item:nth-of-type(1) h2::before */
-    /* Seleciona o 1, e depois o 3º item a partir do 1*/
+    .qualidade-item:nth-of-type(1) h2::before 
+ Seleciona o 1, e depois o 3º item a partir do 1*/
 .qualidade-item:nth-of-type(3n+1) h2::before {
     background: #ae81ff;
 }
