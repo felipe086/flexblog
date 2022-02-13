@@ -1,6 +1,6 @@
 # FlexBlog
 
-Projeto criado com o foco na utilização da propriedade Flexbox.
+Projeto criado com o foco na utilização da propriedade Flexbox. Via [CSS Flexbox - Origamid](https://www.origamid.com/curso/css-flexbox)
 
 ## Screenshot
 
